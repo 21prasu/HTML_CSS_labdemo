@@ -1,0 +1,101 @@
+
+\:root
+{font-size: 20px;}
+ 
+
+body{
+    /* adding the same font fpor the body */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+}
+.container {
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.clearFix{
+    clear:both;
+}
+#mainheader{
+    background: rgb(78, 4, 4);
+    color:rgb(241, 239, 239);
+}
+/* changing the navigation bar  */
+#mainNav{
+    background:rgb(129, 62, 62);
+    color:rgb(114, 106, 106);
+     /*add this make nav stick at position do add in the last  */
+     position: -webkit-sticky;
+     position: sticky;
+     top:0
+}
+/* takes all margin and dots away but still items are not inline */
+#mainNav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+/* Traget li for listing all in one line(inline) */
+#mainNav li {
+    display: inline;
+    padding: 7px 15px;
+    font-size: 18px;
+}  
+/* Removing the blue color and underlined line  */
+#mainNav a{
+ color:black;
+ text-decoration: none;
+}
+/* making a hover so that the clickable area is shown */
+#mainNav li:hover {
+    background: rgb(61, 31, 31);
+}
+/* adding a background image and editing the section with idjumbo */
+#jumbo{
+    background-image: url("./img1.webp");
+    background-position: center center;
+    min-height:150px;
+    text-align:center;
+}
+#jumbo h1{
+    color:rgb(255, 255, 255);
+}
+
+#main {
+    float:right;
+    width: 70%;
+    padding:0 20px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+#sidebar{
+    float:left;
+    width:30%;
+    padding: 10px;
+    border-right: 2px solid rgb(163, 19, 19);
+    box-sizing: border-box;
+    /* to make space within letters and words respectively */
+    letter-spacing: .1em;
+    word-spacing: .3em;
+    
+}
+#mainfooter{
+    background:rgb(138, 14, 14);
+    color: #fff;
+    text-align: center;
+    padding:10px;
+    margin-top:30px;
+}
+
+
+#fixed{
+    position:fixed;
+    bottom: 0;
+    right:20px;
+    background:#ff652f;
+    padding: 3px;
+
+}

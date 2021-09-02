@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    maximum-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lato:wght@300&display=swap" rel="stylesheet">
+    <title>Demo for CSS</title>
+
+    <style>
+        
+        
+        #mainheader{
+            background: #333;
+            color:rgb(241, 239, 239);
+        }
+
+        h2 {
+            font-size:  30px;
+            font-weight: bold;
+            font-style: italic;
+            
+        }
+        
+        p{ 
+            font-size:  1em;
+            font-family: 'Lato',Verdana,Arial;
+            line-height: 20px;
+            letter-spacing: 0.1em;
+        }
+         #list1>li {
+            color: red;
+        }
+
+        #list2>p{
+            color:green;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header id="mainheader">
+        <div class="container">
+            <h1>Demo for texts </h1>
+        </div>
+    </header>
+
+    <section id="main">
+        <h2 style="color:red">Section Title</h2>
+        <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta asperiores corporis dolore et,
+        ad porro! Ut quibusdam quas laborum, maxime magnam 
+        eveniet ratione similique tempora in ullam,
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias repellendus perferendis repellat qui suscipit, dignissimos quibusdam quae velit amet est et nam, 
+        minus dolore eveniet dolorem sed quis iure harum ut pariatur vero commodi! Consequuntur reprehenderit suscipit nihil illo, dolorem voluptas! 
+        Officia voluptas, architecto non consequatur ab doloremque doloribus atque.
+        aut a porro!</p>
+
+        
+        <ul id=list1 >
+            <li>Outer List</li>
+            <li>Another outer List</li>
+            <ul id=list2>
+                <li>inner list 1 </li>
+                <p>This is selected</p>
+                <li>inner list 2 </li>
+            </ul>
+        </ul>
+    </section> 
+
